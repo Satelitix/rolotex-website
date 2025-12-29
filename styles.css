@@ -46,8 +46,10 @@ a {
   justify-content: space-between;
 }
 
-.logo {
-  height: 76px;
+/* HEADER LOGO */
+.header .logo {
+  height: 80px;     /* probeer 72 / 80 / 88 */
+  width: auto;
 }
 
 .nav a {
@@ -78,6 +80,12 @@ a {
   order: 2;
   display: flex;
   justify-content: flex-end;
+}
+
+/* HERO LOGO */
+.hero .logo {
+  height: 200px;    /* 160–220 is ideaal */
+  width: auto;
 }
 
 .hero-text {
