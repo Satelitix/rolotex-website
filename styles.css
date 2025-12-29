@@ -72,24 +72,26 @@ a {
 .hero-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  gap: 80px;
   align-items: center;
+  gap: 80px;
 }
 
+/* Tekst links */
+.hero-text {
+  order: 1;
+}
+
+/* Logo rechts */
 .hero-logo {
   order: 2;
   display: flex;
   justify-content: flex-end;
 }
 
-/* HERO LOGO */
-.hero .logo {
-  height: 250px;    /* 160–220 is ideaal */
-  width: auto;
-}
-
-.hero-text {
-  order: 1;
+/* Logo grootte in hero */
+.hero-logo .logo {
+  width: 360px;
+  max-width: 100%;
 }
 
 .hero {
