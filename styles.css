@@ -210,3 +210,15 @@ a {
 .footer {
   background: #020617;
   color
+
+
+/* HERO LOGO FIX */
+.hero .logo {
+  height: 160px;
+  width: auto;
+}
+
+.hero .logo path {
+  fill: #ffffff;
+}
+   
