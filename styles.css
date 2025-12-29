@@ -209,7 +209,10 @@ a {
 ========================= */
 .footer {
   background: #020617;
-  color
+  color: #ffffff;
+  padding: 32px 0;
+  text-align: center;
+}
 
 
 /* HERO LOGO FIX */
