@@ -365,13 +365,62 @@ a {
   opacity: 0.9;
 }
 
-@media (max-width: 900px) {
-  .image-grid {
-    grid-template-columns: 1fr;
+/* =========================
+   IMAGE BANDS
+========================= */
+
+.image-bands {
+  width: 100%;
+}
+
+.image-band {
+  position: relative;
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.image-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 15, 25, 0.55);
+}
+
+.image-band.light::before {
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.band-content {
+  position: relative;
+  color: #fff;
+  max-width: 600px;
+}
+
+.image-band.light .band-content {
+  color: #020617;
+}
+
+.band-content h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.band-content p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .image-band {
+    height: 300px;
   }
 
-  .image-card {
-    height: 300px;
+  .band-content h2 {
+    font-size: 28px;
   }
 }
 
