@@ -48,7 +48,7 @@ a {
 
 /* HEADER LOGO */
 .header .logo {
-  height: 80px;     /* probeer 72 / 80 / 88 */
+  height: 90px;     /* probeer 72 / 80 / 88 */
   width: auto;
 }
 
@@ -84,7 +84,7 @@ a {
 
 /* HERO LOGO */
 .hero .logo {
-  height: 300px;    /* 160–220 is ideaal */
+  height: 400px;    /* 160–220 is ideaal */
   width: auto;
 }
 
