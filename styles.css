@@ -101,6 +101,10 @@ a {
 }
 
 .hero-inner {
+  width: 100%;
+}
+
+.hero-text {
   max-width: 760px;
 }
 
