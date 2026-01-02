@@ -126,17 +126,14 @@ background-image:
 }
 
 .hero h1 {
-  font-size: 52px;
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-  font-weight: 600;
+  font-size: 54px;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
 }
 
 .hero p {
-  font-size: 18px;
-  line-height: 1.65;
-  color: #d1d5db;
-  max-width: 560px;
+  font-size: 17px;
+  opacity: 0.9;
 }
 
 /* =========================
@@ -148,19 +145,12 @@ background-image:
 }
 
 .btn-primary {
-  background: #2563eb;
-  color: #ffffff;
-  padding: 14px 28px;
-  border-radius: 8px;
-  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
 }
 
 .btn-outline {
-  border: 1px solid #9ca3af;
-  color: #ffffff;
-  padding: 14px 28px;
-  border-radius: 8px;
-  font-weight: 600;
+  backdrop-filter: blur(4px);
+  background: rgba(255,255,255,0.05);
 }
 
 .btn-secondary {
