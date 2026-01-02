@@ -51,7 +51,7 @@ a {
 }
 
 .header .logo {
-  height: 84px;
+  height: 104px;
   width: auto;   
 }
 
@@ -77,8 +77,9 @@ a {
 ========================= */
 /* Tekst links */
 .hero-text {
-  order: 1;
+  max-width: 520px;   /* 👈 maak dit kleiner/groter naar smaak */
 }
+
 
 .hero {
   position: relative;
