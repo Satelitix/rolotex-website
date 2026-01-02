@@ -98,7 +98,13 @@ a {
 
 
 .hero-logo {
-  margin-bottom: 32px;
+  margin-bottom: 12px;
+}
+
+.hero-logo-svg {
+  width: 220px;
+  height: auto;
+  opacity: 0.95;
 }
 
 
@@ -109,26 +115,32 @@ a {
 }
 
 .hero-inner {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  align-items: center;
+  width: 100%;
 }
-
 
 .hero-content {
+  max-width: 640px;
+  color: #ffffff;
+
   display: flex;
-  flex-direction: column-reverse; /* 🔥 dit is de sleutel */
-  gap: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
 }
-
-
 
 
 .hero h1 {
   font-size: 52px;
   line-height: 1.1;
-  margin-bottom: 20px;
+  font-weight: 600;
 }
+
+.hero-sub {
+  font-size: 18px;
+  color: #d1d5db;
+  max-width: 520px;
+}
+
 
 .hero p {
   font-size: 18px;
