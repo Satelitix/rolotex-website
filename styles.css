@@ -69,35 +69,45 @@ a {
 /* =========================
    HERO
 ========================= */
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  align-items: center;
-  gap: 80px;
-}
-
 /* Tekst links */
 .hero-text {
   order: 1;
 }
-
-/* Logo rechts */
-.hero-logo {
-  order: 2;
-  display: flex;
-  justify-content: flex-end;
-}
-
-/* Logo grootte in hero */
-.hero-logo .logo {
-  width: 460px;
-  max-width: 100%;
-}
-
 .hero {
-  background: linear-gradient(135deg, #0f172a, #020617);
+  position: relative;
   color: #ffffff;
-  padding: 140px 0;
+  padding: 160px 0;
+  padding-top: calc(160px - 72px);
+  overflow: hidden;
+
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(2, 6, 23, 0.95) 0%,
+      rgba(2, 6, 23, 0.75) 45%,
+      rgba(2, 6, 23, 0.35) 100%
+    ),
+    url("images/hero-office.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+  gap: 64px;
+}
+
+.hero-logo {
+  justify-content: center;
+}
+
+.hero-logo .logo {
+  width: 420px;
+  max-width: 100%;
+  opacity: 0.95;
 }
 
 .hero-inner {
@@ -105,19 +115,21 @@ a {
 }
 
 .hero-text {
-  max-width: 760px;
+  max-width: 680px;
 }
 
 .hero h1 {
   font-size: 52px;
-  line-height: 1.1;
-  margin-bottom: 24px;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  font-weight: 600;
 }
 
 .hero p {
   font-size: 18px;
+  line-height: 1.65;
   color: #d1d5db;
-  margin-bottom: 40px;
+  max-width: 560px;
 }
 
 /* =========================
@@ -424,4 +436,29 @@ a {
   }
 }
 
+@media (max-width: 900px) {
+  .hero {
+    padding: 120px 0;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 56px;
+    text-align: center;
+  }
+
+  .hero-logo {
+    order: 1;
+  }
+
+  .hero-text {
+    order: 2;
+    margin: 0 auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
 
