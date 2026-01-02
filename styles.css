@@ -56,16 +56,16 @@ a {
 }
 
 .header .logo {
-  height: 164px;
+  height: 64px;
   width: auto;   
-  margin-left: 48px;   /* speel met 32–64px */
+  margin-left: 448px;   /* speel met 32–64px */
 }
 
 .header .logo path {
   fill: #ffffff;
 }
 .nav a {
-  margin-left: 32px;
+  margin-left: 432px;
   font-weight: 300;
   color: #374151;
 }
