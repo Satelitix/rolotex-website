@@ -502,3 +502,24 @@ a {
   opacity: 0.95;
 }
 
+.header-transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background: transparent;
+  border-bottom: none;
+  z-index: 20;
+}
+
+.header-transparent .nav a {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.header-transparent .nav-cta {
+  background: #2563eb;
+  color: #fff;
+}
+
