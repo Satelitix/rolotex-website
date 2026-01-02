@@ -116,11 +116,11 @@ a {
 
 
 .hero-content {
-  max-width: 640px;
   display: flex;
-  flex-direction: column;
-  gap: 32px;
+  flex-direction: column-reverse; /* 🔥 dit is de sleutel */
+  gap: 2rem;
 }
+
 
 
 
