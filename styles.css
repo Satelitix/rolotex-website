@@ -101,12 +101,6 @@ a {
   color: #ffffff;
 }
 
-.hero-grid {
-  grid-column: 1 / 2;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 
 .hero-logo {
   margin-bottom: 32px;
@@ -120,8 +114,7 @@ a {
 }
 
 .hero-inner {
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  width: 100%;
 }
 
 
