@@ -463,8 +463,9 @@ a {
 }
 
 .brand-section {
-  background: #7c7f84; /* jouw grijs */
+  background: #7c7f84;
   padding: 120px 24px;
+  color: #f9fafb;
 }
 
 .brand-inner {
