@@ -32,12 +32,16 @@ a {
    HEADER
 ========================= */
 .header {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
-  position: sticky;
+  position: absolute;
   top: 0;
-  z-index: 10;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+
+  background: transparent;
+  border-bottom: none;
 }
+
 
 .header-inner {
   height: 72px;
@@ -77,7 +81,6 @@ a {
   min-height: 90vh;
 
   padding: 160px 0;
-  padding-top: calc(160px - 72px);
 
   background-image:
     linear-gradient(
