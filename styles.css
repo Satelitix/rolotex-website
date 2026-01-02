@@ -44,15 +44,21 @@ a {
 
 
 .header-inner {
+  justify-content: flex-start;
   height: 72px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: 48px;  /* ruimte tot rechterkant */
 }
 
 .header .logo {
   height: 164px;
   width: auto;   
+  margin-left: 48px;   /* speel met 32–64px */
 }
 
 .header .logo path {
