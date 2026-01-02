@@ -54,6 +54,9 @@ a {
   height: 64px;
 }
 
+.header .logo path {
+  fill: #ffffff;
+}
 .nav a {
   margin-left: 32px;
   font-weight: 300;
