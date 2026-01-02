@@ -1019,6 +1019,24 @@ z"/>
   </div>
 </section>
 
+	<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const brandSection = document.querySelector(".brand-section");
+
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        brandSection.classList.add("is-visible");
+        observer.disconnect(); // animatie maar 1x
+      }
+    },
+    { threshold: 0.3 }
+  );
+
+  observer.observe(brandSection);
+});
+</script>
+
 <!-- FOOTER -->
 <footer class="footer">
   <div class="container footer-inner">
