@@ -156,6 +156,10 @@ a {
   margin-bottom: 32px;
 }
 
+.hero-text p {
+  max-width: 440px;   /* 👈 beschrijving smaller */
+}
+
 /* =========================
    BUTTONS
 ========================= */
