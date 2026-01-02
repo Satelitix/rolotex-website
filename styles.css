@@ -113,7 +113,7 @@ a {
 
 
 .hero-logo {
-  order: 2;
+  order: 0;
   margin-top: 40px;   
 }
 
@@ -144,7 +144,6 @@ a {
   align-items: flex-start;
   gap: 24px;
 }
-
 
 .hero h1 {
   font-size: 52px;
