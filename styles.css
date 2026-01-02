@@ -51,7 +51,7 @@ a {
 }
 
 .header .logo {
-  height: 104px;
+  height: 164px;
   width: auto;   
 }
 
@@ -166,10 +166,15 @@ a {
 /* =========================
    BUTTONS
 ========================= */
-.hero-buttons {
-  display: flex;
-  gap: 16px;
-  margin-top: 12px;
+.hero-buttons a {
+  display: inline-flex;
+  align-items: center;
+  height: 48px;              /* zelfde hoogte als btn-primary */
+}
+
+.hero-buttons .btn-outline,
+.hero-buttons .btn-ghost {
+  padding: 0 24px;
 }
 
 /* primaire knop */
