@@ -73,32 +73,30 @@ a {
 .hero-text {
   order: 1;
 }
+
 .hero {
   position: relative;
   min-height: 90vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
   align-items: center;
-  color: #ffffff;
-  overflow: hidden;
 
   padding: 160px 0;
   padding-top: calc(160px - 72px);
 
-background-image:
-  linear-gradient(
-    90deg,
-    rgba(15, 23, 42, 0.92) 0%,
-    rgba(15, 23, 42, 0.75) 35%,
-    rgba(15, 23, 42, 0.35) 60%,
-    rgba(15, 23, 42, 0.15) 100%
-  ),
-  url("/images/hero.png");
-
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(2, 6, 23, 0.92) 0%,
+      rgba(2, 6, 23, 0.75) 45%,
+      rgba(2, 6, 23, 0.2) 100%
+    ),
+    url("/images/hero.png");
 
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: right center; /* 🔑 super belangrijk */
 }
+
 
 .hero-grid {
   display: grid;
@@ -106,10 +104,6 @@ background-image:
   align-items: center;
 }
 
-
-.hero-logo {
-  justify-content: center;
-}
 
 .hero-logo .logo {
   width: 420px;
@@ -125,15 +119,27 @@ background-image:
   max-width: 560px;
 }
 
+.hero-content {
+  grid-column: 1 / 2;   /* 🔑 altijd linker kolom */
+  max-width: 640px;
+  color: white;
+}
+
+.hero-logo {
+  width: 220px;
+  margin-bottom: 32px;
+}
+
 .hero h1 {
-  font-size: 54px;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  font-size: 52px;
+  line-height: 1.1;
+  margin-bottom: 20px;
 }
 
 .hero p {
-  font-size: 17px;
-  opacity: 0.9;
+  font-size: 18px;
+  color: #d1d5db;
+  margin-bottom: 32px;
 }
 
 /* =========================
