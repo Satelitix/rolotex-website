@@ -469,3 +469,24 @@ a {
   }
 }
 
+.brand-section {
+  background: #7c7f84; /* jouw grijs */
+  padding: 120px 24px;
+}
+
+.brand-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.brand-logo {
+  width: 160px;
+  opacity: 0.95;
+}
+
