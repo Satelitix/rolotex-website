@@ -522,6 +522,45 @@ a {
   opacity: 0.95;
 }
 
+.brand-section .logo-base,
+.brand-section .logo-windows,
+.brand-section .letter {
+  opacity: 0;
+  animation-play-state: running;
+}
+.brand-section .logo {
+  width: 160px;           /* pas aan naar smaak */
+  height: auto;
+  margin-bottom: 24px;
+}
+.brand-section .logo-base {
+  animation-duration: 1s;
+}
+
+.brand-section .logo-windows {
+  animation-duration: 1s;
+  animation-delay: 0.6s;
+}
+
+.brand-section .letter {
+  animation-duration: 0.7s;
+}
+.brand-section .logo-base {
+  animation-delay: 0.3s;
+}
+
+.brand-section .logo-windows {
+  animation-delay: 0.9s;
+}
+
+.brand-section .l1 { animation-delay: 1.2s; }
+.brand-section .l2 { animation-delay: 1.35s; }
+.brand-section .l3 { animation-delay: 1.5s; }
+.brand-section .l4 { animation-delay: 1.65s; }
+.brand-section .l5 { animation-delay: 1.8s; }
+.brand-section .l6 { animation-delay: 1.95s; }
+
+
 .header-transparent {
   position: absolute;
   top: 0;
