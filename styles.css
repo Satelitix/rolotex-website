@@ -558,6 +558,9 @@ a {
 .brand-section .logo-windows {
   animation-delay: 0.9s;
 }
+.brand-section .logo {
+  display: none;
+}
 
 .brand-section .l1 { animation-delay: 1.2s; }
 .brand-section .l2 { animation-delay: 1.35s; }
