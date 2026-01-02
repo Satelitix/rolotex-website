@@ -526,8 +526,9 @@ a {
 .brand-section .logo-windows,
 .brand-section .letter {
   opacity: 0;
-  animation-play-state: running;
+  animation-play-state: paused;
 }
+
 .brand-section .logo {
   width: 160px;           /* pas aan naar smaak */
   height: auto;
@@ -581,4 +582,10 @@ a {
   background: #2563eb;
   color: #fff;
 }
+.brand-section.is-visible .logo-base,
+.brand-section.is-visible .logo-windows,
+.brand-section.is-visible .letter {
+  animation-play-state: running;
+}
+
 
