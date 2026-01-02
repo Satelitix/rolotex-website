@@ -91,7 +91,7 @@ a {
       rgba(2, 6, 23, 0.75) 45%,
       rgba(2, 6, 23, 0.35) 100%
     ),
-    url("images/hero.png");
+    url("/images/hero.png");
 
   background-size: cover;
   background-position: center;
