@@ -75,10 +75,8 @@ a {
 }
 
 .hero {
-  display: grid;   
   position: relative;
   min-height: 90vh;
-  grid-template-columns: 1.1fr 0.9fr;
   align-items: center;
 
   padding: 160px 0;
@@ -114,7 +112,9 @@ a {
 }
 
 .hero-inner {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
 }
 
 
