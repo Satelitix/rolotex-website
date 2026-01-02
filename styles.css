@@ -97,11 +97,19 @@ a {
   background-position: right center; /* 🔑 super belangrijk */
 }
 
+.hero-text {
+  color: #ffffff;
+}
 
 .hero-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-logo {
+  margin-bottom: 32px;
 }
 
 
@@ -115,20 +123,12 @@ a {
   width: 100%;
 }
 
-.hero-text {
-  max-width: 560px;
-}
-
 .hero-content {
   grid-column: 1 / 2;   /* 🔑 altijd linker kolom */
   max-width: 640px;
   color: white;
 }
 
-.hero-logo {
-  width: 220px;
-  margin-bottom: 32px;
-}
 
 .hero h1 {
   font-size: 52px;
