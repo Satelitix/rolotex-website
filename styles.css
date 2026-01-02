@@ -77,7 +77,6 @@ a {
 .hero {
   position: relative;
   min-height: 90vh;
-  display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   align-items: center;
 
@@ -120,14 +119,19 @@ a {
 }
 
 .hero-inner {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
+
 .hero-content {
-  grid-column: 1 / 2;   /* 🔑 altijd linker kolom */
   max-width: 640px;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
+
 
 
 .hero h1 {
