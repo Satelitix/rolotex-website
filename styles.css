@@ -46,10 +46,8 @@ a {
   justify-content: space-between;
 }
 
-/* HEADER LOGO */
 .header .logo {
-  height: 105px;     /* probeer 72 / 80 / 88 */
-  width: auto;
+  height: 64px;
 }
 
 .nav a {
@@ -441,12 +439,13 @@ a {
   .hero {
     padding: 120px 0;
   }
+   
+.hero-inner {
+  grid-template-columns: 1fr;
+  gap: 56px;
+  text-align: center;
+}
 
-  .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 56px;
-    text-align: center;
-  }
 
   .hero-logo {
     order: 1;
