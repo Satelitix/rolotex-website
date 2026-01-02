@@ -75,6 +75,7 @@ a {
 }
 
 .hero {
+  display: grid;   
   position: relative;
   min-height: 90vh;
   grid-template-columns: 1.1fr 0.9fr;
@@ -119,7 +120,6 @@ a {
 }
 
 .hero-inner {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
@@ -154,14 +154,16 @@ a {
   gap: 16px;
 }
 
-.btn-primary {
-  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+.btn-primary,
+.btn-outline {
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.btn-outline {
-  backdrop-filter: blur(4px);
-  background: rgba(255,255,255,0.05);
-}
 
 .btn-secondary {
   background: #ffffff;
